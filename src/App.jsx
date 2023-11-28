@@ -3,7 +3,7 @@ import Header from "./components/Header/Header";
 
 const App = () => {
   return (
-    <div className="w-screen h-screen sm:px-5 flex flex-col justify-start items-center">
+    <div className="h-screen sm:px-5 flex flex-col justify-start items-center">
       <Header />
       <ArticlesList />
     </div>
