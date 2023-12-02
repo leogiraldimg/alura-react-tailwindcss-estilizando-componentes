@@ -6,21 +6,7 @@ const Article = ({ title, text, tags, image, alt }) => {
       </h1>
       <div className="w-full pr-5 hidden sm:flex gap-2 justify-end">
         {tags.map((tag) => (
-          <span
-            key={tag}
-            className="
-              px-4 py-1
-              bg-alura-100
-              dark:bg-dark-100
-              rounded-full
-              text-gray-200
-              text-xs
-              font-bold
-              uppercase
-              hover:bg-alura-200
-              hover:scale-110
-            "
-          >
+          <span key={tag} className="alura-tag">
             {tag}
           </span>
         ))}
